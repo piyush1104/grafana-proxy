@@ -6,7 +6,7 @@ const from = queryParams.get('from');
 const to = queryParams.get('to');
 const cluster = queryParams.get('var-cluster');
 const dashboardType = queryParams.get('dashboard_type');
-const app = queryParams.get('app');
+let app = queryParams.get('app');
 
 // Set the default app value based on the dashboard_type
 if (!app) {
