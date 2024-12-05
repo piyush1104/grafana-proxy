@@ -25,4 +25,4 @@ const grafanaURL = `https://grafana.100ms.live/explore?panes={"6uY":{"datasource
 console.log(grafanaURL);
 
 // Redirect to the Grafana URL
-window.location.href = grafanaURL;
+// window.location.href = grafanaURL;
