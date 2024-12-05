@@ -21,7 +21,7 @@ if (!app) {
 
 // Construct the Grafana URL with the extracted values
 // const grafanaURL = `https://grafana.100ms.live/explore?left={"queries":[{"refId":"A","datasource":{"type":"loki"},"editorMode":"builder","expr":"{cluster_alias=\\"${cluster}\\", app=\\"${app}\\"} |= \\"\\"","queryType":"range"}],"range":{"from":"${from}","to":"${to}"}}`;
-const grafanaURL = `https://grafana.100ms.live/explore?panes={"6uY":{"datasource":"lO4rcexIk","queries":[{"refId":"A","expr":"{cluster_alias=\\"${cluster}\\", app=\\"${app}\\"} |= ``","queryType":"range","datasource":{"type":"loki","uid":"lO4rcexIk"},"editorMode":"code"}],"range":{"from":"${from}","to":"${to}"}}`;
+const grafanaURL = `https://grafana.100ms.live/explore?panes={"6uY":{"datasource":"lO4rcexIk","queries":[{"refId":"A","expr":"{cluster_alias=\\"${cluster}\\", app=\\"${app}\\"} |= \\"\\"","queryType":"range","datasource":{"type":"loki","uid":"lO4rcexIk"},"editorMode":"code"}],"range":{"from":"${from}","to":"${to}"}}`;
 
 // Redirect to the Grafana URL
 window.location.href = grafanaURL;
